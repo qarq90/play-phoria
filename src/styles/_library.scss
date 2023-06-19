@@ -1,0 +1,120 @@
+* {
+  scrollbar-color: rgba(95, 158, 160, 0.5) transparent;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  margin-right: 8px;
+  background-color: rgba(95, 158, 160, 0.75);
+  border-radius: 20px;
+  border: transparent;
+}
+
+.library {
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 105vh;
+  position: fixed;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 2px 2px 50px cadetblue;
+  transform: translateX(-100%);
+  overflow: scroll;
+  transition: 0.5s all ease;
+  opacity: 0;
+  h2 {
+    margin: 2rem;
+    margin-left: 2.5rem;
+    transition: 0.5s;
+    &:hover {
+      letter-spacing: 2px;
+      transition: 0.5s;
+    }
+  }
+  padding-bottom: 2rem;
+}
+
+.MySongThumbnail {
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  img {
+    width: 30%;
+    border-radius: 10px;
+    border: transparent;
+  }
+}
+
+.MySongThumbnail:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  h3 {
+    transition: 0.5s;
+    color: rgb(30, 30, 30);
+    background-color: cadetblue;
+  }
+  h4 {
+    transition: 0.5s;
+    color: rgb(30, 30, 30);
+    background-color: cadetblue;
+  }
+}
+
+.song-description {
+  margin-left: 1rem;
+  h3 {
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+}
+
+.selected {
+  background-color: cadetblue;
+  transition: 0.5s;
+  h3 {
+    transition: 0.5s;
+    color: rgb(30, 30, 30);
+    background-color: cadetblue;
+  }
+  h4 {
+    transition: 0.5s;
+    color: rgb(30, 30, 30);
+    background-color: cadetblue;
+  }
+}
+
+.active-library {
+  transition: 0.5 all ease;
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+@media screen and(max-width : 768px) {
+  .library {
+    width: 100%;
+    h2 {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 15px;
+    }
+  }
+}

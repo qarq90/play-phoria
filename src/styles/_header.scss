@@ -1,0 +1,28 @@
+.MySongDescription {
+  display: flex;
+  min-height: 60vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(30, 30, 30);
+  img {
+    width: 15%;
+    border-radius: 50%;
+  }
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+    font-weight: bolder;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MySongDescription {
+    img {
+      width: 45%;
+    }
+  }
+}

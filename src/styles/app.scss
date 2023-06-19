@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: cadetblue;
+  background-color: rgb(30, 30, 30);
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.main-body-active {
+  margin-left: 20%;
+  transition: 0.5s all ease-in-out;
+}
+
+.main-body-inactive {
+  margin-left: 0;
+  transition: 0.5s all ease-in-out;
+}
+
+@import "./header";
+@import "./tools";
+@import "./library";
+@import "./navbar";

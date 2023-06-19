@@ -1,0 +1,31 @@
+nav {
+  margin-top: 2rem;
+  min-width: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    transition: 0.5s;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid cadetblue;
+    padding: 0.5rem;
+    transition: 0.3s ease all;
+    &:hover {
+      background-color: cadetblue;
+      color: rgb(30, 30, 30);
+      transition: 0.5s;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
+@media screen and(max-width : 768px) {
+  nav {
+    button {
+      z-index: 10;
+    }
+  }
+}
