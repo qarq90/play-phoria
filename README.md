@@ -65,6 +65,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+![image](https://github.com/SpectreScythe/Playphoria/assets/124421417/e2f1c9fc-f286-41ce-b61a-68b385a26324)
+
+![image](https://github.com/SpectreScythe/Playphoria/assets/124421417/a7d78b74-3864-46db-9bbf-d195799dd25c)
+
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
