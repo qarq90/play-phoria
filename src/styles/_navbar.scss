@@ -1,16 +1,18 @@
 nav {
   margin-top: 2rem;
+  font-size: 1.75rem;
   min-width: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   button {
     transition: 0.5s;
-    font-size: 1rem;
+    font-size: 1.75rem;
+    border-radius: 10px;
     font-weight: bolder;
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid cadetblue;
+    border: 3px solid cadetblue;
     padding: 0.5rem;
     transition: 0.3s ease all;
     &:hover {
